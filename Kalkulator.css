@@ -1,0 +1,74 @@
+body{
+    background-color: #f6c2ac;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+div{
+    /* border: solid 1px red; */
+}
+
+#kalkulator{
+    border: solid 1px #e15b5b;
+    border-width: 5px;
+    padding: 10px;
+    background: #fdd6c7;
+    min-width: 200px;
+    border-radius: 6%;
+}
+
+.wrapper{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.wrapper div{
+    width: 100%;
+    padding: 5px 10px; 
+    /* background: #f76755; 
+    border: #3a100b;  */
+}
+
+#hasil, #btn-hitung{
+    font-size: 20px;
+}
+#operasi-temporer{
+    font-size: 10px;
+}
+
+.bg-yangatas {background: #fa9980;}
+.bg-clear {background: #dd0606;} 
+.bg-plus {background: #bd352b;} 
+.bg-opr{background: #c42f1b;} 
+.bg-samadengan {background: #f52537;} 
+.bg-angka {background: #e93939;}
+
+#judul{
+    padding: 10px 0;
+}
+
+.tombol{
+    border: solid 1px #ccc;
+    box-shadow: 0 0 3px rgb(101, 91, 91);
+    border-radius: 5%;
+}
+
+.tombol-aktif{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.tombol-aktif:hover{
+    background: #dbd8d9;
+    transform: scale(1.1);
+}
+
+.tombol-nonaktif{
+    box-shadow: none !important;
+}
